@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+header.container{
+width: 100%;
+height: 10vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0 3% ;
+}
+
+div.container-logo{
+    display:flex;
+
+}
+
+button.container-button{
+    width: 100px;
+    height: 20%;
+    border:1px solid pink;
+    border-radius: 10px;
+    color: hsl(322, 100%, 66%) ;
+    background-color: white;
+}
+
+.container-logo h1{
+    background-color: pink;
+    margin-left: 5%;
+    font-size: 2rem;
+ 
+}
+
+section#section-one{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+}
+
+img.section-one-img{
+    width: 50%;
+    margin-top: 5%;
+}
+#section-one button{
+    width: 100px;
+    height: 20%;
+    border:1px solid pink;
+    border-radius: 10px;
+    color: hsl(322, 100%, 66%) ;
+    background-color: white;
+}
+  
+#section-one h2{
+    font-size: 3rem;
+    margin-top:8% ;
+}
+#section-one p{
+    font-size: 1rem;
+    margin-top: 4%;
+
+}
+section#section-two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+}
+
+#section-two h2{
+    font-size: 3rem;
+    margin-top: 8%;
+}
+
+#section-two h3{
+    font-size: 2rem;
+    margin-top: 4%;
+}
+
+#section-two button{
+    width: 100px;
+    height: 20%;
+    border:1px solid pink;
+    border-radius: 10px;
+    color: hsl(322, 100%, 66%) ;
+    background-color: white;   
+}
+
+section#section-thre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+}
+
+#section-thre h2{
+    font-size: 3rem;
+    margin-top: 8%;
+}
+
+#section-thre p{
+    font-size: 2rem;
+    margin-top: 4%;
+}
+
+#section-thre h3{
+    font-size: 2rem;
+    margin-top: 4%;
+}
+
+
+@media only screen and (max-width: 480px) {
+   body{
+    background-color: purple;
+   }
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 768px) {   
+    body{  
+    background-color:#555;  
+    font-family: Times New Roman;  
+    }  
+    header h3{  
+            text-align:center;  
+        }  
+     } 
+
+     @media (max-width: 1024px) {
+        body {
+          font-size: 16px;
+          background-color: lightgray;
+        }
+    }
+
+    @media (max-width: 1024px) {
+ 
+        body {
+          background-color: lightblue;
+        }
+        
+        h1 {
+          font-size: 24px;
+          color: red;
+        }
+        
+      }
